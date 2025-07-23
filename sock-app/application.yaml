@@ -9,7 +9,7 @@ spec:
     repoURL: https://github.com/argoproj/argocd-example-apps.git
     targetRevision: HEAD
     path: sock-shop
-  destinamtion:
+  destination:
     server: https://kubernetes.default.svc
     namespace: sock-shop
   syncPolicy:
